@@ -6,6 +6,7 @@ const UserModel = require("./models/users");
 const cors = require("cors");
 
 app.use(express.json());
+app.use(express.urlencoded());
 app.use(cors());
 const DB =
   "mongodb+srv://team7:team7_123@cluster0.l793gjv.mongodb.net/mern?retryWrites=true&w=majority";

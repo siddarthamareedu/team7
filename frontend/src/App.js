@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="usersDisplay">
+        <h1>Hello</h1>
         {listOfUsers.map((user) => {
           return (
             <div>
